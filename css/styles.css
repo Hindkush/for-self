@@ -1,3 +1,98 @@
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+    margin: 0%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/* navabar */
+
+.navbar {
+    background-color: #28FF75;
+    padding: 30px;
+    border-bottom-left-radius: 40px;
+}
+
+.navbar h2 {
+    font-size: 2rem;
+    text-align: initial;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.navbar li {
+    display: inline;
+    list-style-type: none;
+    text-align: left;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar a {
+
+    text-decoration: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    text-align: end;
+}
+
+.active-cls{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* top-container */
+.top-container {
+    margin-top: 50px;
+    line-height: 2;
+}
+
+
+span {
+    color: #28FF75;
+}
+
+
+/* middle-container */
+
+.middle-container {
+    line-height: 2;
+
+}
+
+.grey-container {
+    background-color: aliceblue;
+    padding: 50px;
+    text-align: center;
+}
+
+.white-container {
+    padding: 50px;
+}
+
+button {
+    background-color: #28FF75;
+    border-style: none;
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 20px;
+}
+
+/* bottom-container */
+.bottom-container {
+    background-color: #28FF75;
+    padding: 50px;
+    color: aliceblue;
+}
+
+footer a {
+    margin: 10px;
+    font-weight: 500;
 }
